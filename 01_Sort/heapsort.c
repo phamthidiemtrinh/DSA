@@ -36,6 +36,6 @@ void heapsort(int a[],int n)
         int t=a[0];
         a[0]=a[i];
         a[i]=t;
-        heapfy(a,n,0);
+        heapfy(a,i,0);
     }
 }
